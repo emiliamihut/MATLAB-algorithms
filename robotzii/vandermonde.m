@@ -1,9 +1,5 @@
 function coef = vandermonde(x, y)
-    % x = [x0, x1, ..., xn]'
-    % y = [y0, y1, ..., yn]'
-    % coef = [a0, a1, a2, ..., an]'
-    
-    % TODO: Calculate the Vandermonde coefficients
+   
     
     n = length(x) - 1;            % Degree of the polynomial
     V = zeros(n + 1);             % Initialize Vandermonde matrix
