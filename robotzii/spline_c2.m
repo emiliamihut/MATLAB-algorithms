@@ -1,6 +1,5 @@
 function coef = spline_c2(x, y)
-    % Remember that the indexes in Matlab start from 1, not 0
-    %
+   
     % si(x)   = ai + bi(x - xi) + ci(x - xi)^2 + di(x - xi)^3
     % si'(x)  =      bi         + 2ci(x - xi)  + 3di(x - xi)^2
     % si''(x) =                   2ci          + 6di(x - xi)
