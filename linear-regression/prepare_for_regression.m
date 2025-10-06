@@ -1,10 +1,5 @@
 function [FeatureMatrix] = prepare_for_regression(InitialMatrix)
-  % InitialMatrix -> the matrix that must be transformed
-
-  % FeatureMatrix -> the matrix with all training examples
-
-  % TODO: prepare_for_regression implementation
-
+  
   [m, n] = size(InitialMatrix);
   FeatureMatrix = zeros(m, n+1); % with an extra column for the label
   col=n; % the last column
